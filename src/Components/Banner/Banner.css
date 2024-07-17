@@ -1,0 +1,39 @@
+.banner {
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    color: white;
+    padding: 2%;
+    box-shadow: #409BF1 0px 0px 1.5rem;
+}
+
+.banner .front {
+    background: url("../../../public/img/banner.png");
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7% 0;
+}
+
+.banner .frontdes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.frontdes h1 {
+    background-color: #6BD1FF;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 2.5em;
+    box-shadow: #409BF1 0px 0px 1.5rem;
+}
+
+.frontdes p {
+    font-size: 1em;
+    font-weight: lighter;
+    padding: 0% 15% 0% 0%;
+}

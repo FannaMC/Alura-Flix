@@ -1,0 +1,79 @@
+.cards .categoria {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.categoria .tituloCardFront {
+    width: 400px;
+    border-radius: 10px;
+    background: #409BF1;
+}
+
+.categoria .tituloCardBack {
+    width: 400px;
+    border-radius: 10px;
+    background: #00C86F;
+}
+
+.categoria .tituloCardIn {
+    width: 400px;
+    border-radius: 10px;
+    background: #FFBA05;
+}
+
+.categoria .categoriaCard {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.categoriaCard .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.card .imgCateA {
+    width: 400px;
+    border: none;
+    box-shadow: blue 0px 0px 1.5rem;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.card .imgCateV {
+    width: 400px;
+    border: none;
+    box-shadow: green 0px 0px 1.5rem;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.card .imgCateY {
+    width: 400px;
+    border: none;
+    box-shadow: yellow 0px 0px 1.5rem;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.card .botones {
+    display: flex;
+    justify-content: space-evenly;
+    border: white;
+}
+
+.card .botonCate {
+    display: flex;
+    width: 100px;
+    background: black;
+    color: white;
+    border-radius: 8px;
+    gap: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+}
